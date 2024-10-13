@@ -1,4 +1,6 @@
-: Recommendation datasets are collections of data used to develop Recommendation systems like Movie/music/books/social-media content. These are based on personalized choices. These datasets have specific features:
+<b>COLLABORATIVE FILTERING METHODS VS CONTENT-BASED FILTERING METHODS</B>
+
+Recommendation datasets are collections of data used to develop Recommendation systems like Movie/music/books/social-media content. These are based on personalized choices. These datasets have specific features:
 
 1.	User data(age, preferences, demographics etc.)
 For eg. A content creator can address people in the age-group of 18-22, is focused on sports and can live in the US.
@@ -13,13 +15,14 @@ And there might be several other factors
 
 Some of the Recommendation datasets that I found include:
 https://huggingface.co/datasets/sileod/movie_recommendation
+<img width="452" alt="image" src="https://github.com/user-attachments/assets/b05fe845-ff0e-4dae-b5f6-521a8774ad8c">
 
  
 
 Explanation of the Dataset:
 The question column contains a list of 4 movies. The next 4 columns contain the number of people opting for each movie among the list of the movies available. The label column gives the index of the question (0,1,2,3) telling the movie with highest watch count. 
-Collaborative Filtering:
 
+<b>Collaborative Filtering:</b>
 Intuition:
 This is a method used in user-item recommendation systems which are based on the idea “Users with similar interests will have common preferences”. 
 Basically, “Similar past preferences can provide insights about future predictions”. 
@@ -58,7 +61,7 @@ Barriers in Collab Filtering
 •	Sparsity: Most of today’s users don’t rank items. They make use of them and do not give reviews which creates a very sparse item-user interaction matrix
 •	Gray-Sheep problem: Several users have very unpredictable preferences and do not align with any particular group of users. They cannot be clustered with any group leading to poor recommendations for them
 
-CONTENT-BASED FILTERING:
+<b>CONTENT-BASED FILTERING:</b>
 Content-based filtering solves a lot of these problems faced as it is not user-specific. It focusses on the item data. Works on the data that is taken from items (either explicitly i.e. rating) or (implicitly i.e. clicks). 
 
 This method depends more on the item’s features and not on the user preferences or behaviors of other people. 
@@ -83,9 +86,9 @@ References:
 
 
 
-Research Paper Recommendation Model:
+<b>Research Paper Recommendation Model:</b>
 
-The ¬¬¬¬¬model gives a list of recommendations when provided with a particular Research Paper Title. These recommendations are based on different factors like:
+The model gives a list of recommendations when provided with a particular Research Paper Title. These recommendations are based on different factors like:
 1.	Number of Citations
 2.	The conference of the paper
 3.	Year of publishing
@@ -102,4 +105,4 @@ For each recommended paper, you will get:
 •	Authors: List of authors for the recommended paper.
 •	Year: The year the recommended paper was published.
 •	n_citations: Number of citations the recommended paper has.
-![image](https://github.com/user-attachments/assets/6e9de3dc-efb1-486d-a6c6-132df32900fd)
+
