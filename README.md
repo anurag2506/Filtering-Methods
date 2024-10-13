@@ -101,8 +101,15 @@ The dataset is not labelled and therefore it is an unsupervised Machine Learning
 The model takes in an input of any Research Paper of the user’s choice and provides relevant recommendation for that paper in a JSON format to the user. 
 
 For each recommended paper, you will get:
-•	Title: Title of the recommended paper.
-•	Authors: List of authors for the recommended paper.
-•	Year: The year the recommended paper was published.
-•	n_citations: Number of citations the recommended paper has.
+1.	Title: Title of the recommended paper.<br>
+2. Authors: List of authors for the recommended paper.<br>
+3. Year: The year the recommended paper was published.<br>
+4. n_citations: Number of citations the recommended paper has.<br>
+5. The Venue of the Conference where it was published
+<br><br><br>
+The Reference Papers that I found useful:
+1. file:///Users/anuragprasad/Downloads/Content_Based_Filtering_And_Collaborative_Filterin.pdf <br>
+2. file:///Users/anuragprasad/Downloads/20.pdf
+
+
 
