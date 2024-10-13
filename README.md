@@ -55,13 +55,13 @@ This is an example matrix of the ratings of 8 different shows by 3 different use
 
 Example:
 Let’s denote the similarity of user1 with user2 as u12 and u13 for the other pair. Let’s suppose we have the rating for a particular movie by both user1 and user2. To find the rating of that movie by user3 we take the weighted mean of both the users where the weights are the cosine similarities.  
-
+<br> <br>
 Barriers in Collab Filtering
 •	Cold Start problem: For initial users and items, there isn’t initial data to make predictions based on. This creates a problem of suggestions to new users and/or new items
 •	Sparsity: Most of today’s users don’t rank items. They make use of them and do not give reviews which creates a very sparse item-user interaction matrix
 •	Gray-Sheep problem: Several users have very unpredictable preferences and do not align with any particular group of users. They cannot be clustered with any group leading to poor recommendations for them
 
-<b>CONTENT-BASED FILTERING:</b>
+<b>CONTENT-BASED FILTERING:</b><br>
 Content-based filtering solves a lot of these problems faced as it is not user-specific. It focusses on the item data. Works on the data that is taken from items (either explicitly i.e. rating) or (implicitly i.e. clicks). 
 
 This method depends more on the item’s features and not on the user preferences or behaviors of other people. 
