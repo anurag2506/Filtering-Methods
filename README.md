@@ -108,8 +108,7 @@ For each recommended paper, you will get:
 5. The Venue of the Conference where it was published
 <br><br><br>
 The Reference Papers that I found useful:
-1. file:///Users/anuragprasad/Downloads/Content_Based_Filtering_And_Collaborative_Filterin.pdf <br>
-2. file:///Users/anuragprasad/Downloads/20.pdf
-
+1. <a href="https://ijiet.com/wp-content/uploads/2016/12/20.pdf"></a> <br>
+2. <a href="https://jazindia.com/index.php/jaz/article/view/4158/3646"></a>
 
 
