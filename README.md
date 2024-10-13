@@ -108,7 +108,7 @@ For each recommended paper, you will get:
 5. The Venue of the Conference where it was published
 <br><br><br>
 The Reference Papers that I found useful:
-1. <a href="https://ijiet.com/wp-content/uploads/2016/12/20.pdf"></a> <br>
-2. <a href="https://jazindia.com/index.php/jaz/article/view/4158/3646"></a>
+1. <a href="https://ijiet.com/wp-content/uploads/2016/12/20.pdf">Paper-1</a> <br>
+2. <a href="https://jazindia.com/index.php/jaz/article/view/4158/3646">Paper-2</a>
 
 
