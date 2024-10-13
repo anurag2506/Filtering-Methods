@@ -20,8 +20,10 @@ https://huggingface.co/datasets/sileod/movie_recommendation
  
 
 Explanation of the Dataset:
-The question column contains a list of 4 movies. The next 4 columns contain the number of people opting for each movie among the list of the movies available. The label column gives the index of the question (0,1,2,3) telling the movie with highest watch count. 
-
+The question column contains a list of 4 movies. The next 4 columns contain the number of people opting for each movie among the list of the movies available. The label column gives the index of the question (0,1,2,3) telling the movie with highest watch count. <br><br>
+<b>Creation of Custom Dataset:</b><br>
+1. Using Random Values i.e. Synthetic data: This is done using the 'random' function in python where random values are generated between given limits. The Dataset is stored in a csv file<br><br>
+2. Using Scraping(bs4): Generating Real time data from websites using Scraping from IMDB website for movies, the year of release and their IMDB ratings. The Dataset is stored in a csv file<br><br><br>
 <b>Collaborative Filtering:</b>
 Intuition:
 This is a method used in user-item recommendation systems which are based on the idea “Users with similar interests will have common preferences”. 
