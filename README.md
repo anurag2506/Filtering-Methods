@@ -12,7 +12,7 @@ For eg. Youtube, Twitch,Instagram,Twitter
 For eg. How often does his provide updates to his fan-base
 
 And there might be several other factors
-
+<br>
 Some of the Recommendation datasets that I found include:
 https://huggingface.co/datasets/sileod/movie_recommendation
 <img width="452" alt="image" src="https://github.com/user-attachments/assets/b05fe845-ff0e-4dae-b5f6-521a8774ad8c">
@@ -36,18 +36,18 @@ To compute the similarity in preferences we have multiple methods:
 6.	Spearman Rank Correlation
 7.	Hamming Distance
 8.	Tanimoto Coefficient
-
+<br><br>
 Cosine Similarity is what that is primarily used for the following reasons:
 1.	Scale Invariance
 2.	Simplicity and Efficiency
 
  <img width="452" alt="image" src="https://github.com/user-attachments/assets/dab3063f-4461-4537-aed9-73e91942ee01">
-
+<br>
 (source: Me)
 
-How Cosine Similarity is Calculated:
+How Cosine Similarity is Calculated:<br>
   <img width="452" alt="image" src="https://github.com/user-attachments/assets/15d1546a-0684-40c1-bdc8-09c2d11ef6a9">
-
+<br>
 
 This is an example matrix of the ratings of 8 different shows by 3 different users and we will predict the ratings of unrated shows of user1 based on the rankings of user2 and user3. 
  
@@ -56,12 +56,12 @@ This is an example matrix of the ratings of 8 different shows by 3 different use
 Example:
 Let’s denote the similarity of user1 with user2 as u12 and u13 for the other pair. Let’s suppose we have the rating for a particular movie by both user1 and user2. To find the rating of that movie by user3 we take the weighted mean of both the users where the weights are the cosine similarities.  
 <br> <br>
-Barriers in Collab Filtering
+Barriers in Collab Filtering<br>
 •	Cold Start problem: For initial users and items, there isn’t initial data to make predictions based on. This creates a problem of suggestions to new users and/or new items
 •	Sparsity: Most of today’s users don’t rank items. They make use of them and do not give reviews which creates a very sparse item-user interaction matrix
 •	Gray-Sheep problem: Several users have very unpredictable preferences and do not align with any particular group of users. They cannot be clustered with any group leading to poor recommendations for them
-
-<b>CONTENT-BASED FILTERING:</b><br>
+<br><br>
+<b>CONTENT-BASED FILTERING:</b><br><br>
 Content-based filtering solves a lot of these problems faced as it is not user-specific. It focusses on the item data. Works on the data that is taken from items (either explicitly i.e. rating) or (implicitly i.e. clicks). 
 
 This method depends more on the item’s features and not on the user preferences or behaviors of other people. 
@@ -75,7 +75,7 @@ Content-based filtering solves the Cold-start problem since it doesn’t need th
 It also solves the problem of niche-interest since it doesn’t focus on any item in a niche and rather focusses on the properties of the item of that niche which can be matched with properties of items in other niches as well
 
 
-
+<br><br>
 References:
 1.	https://youtu.be/Fmtorg_dmM0?si=csfbJJKGPqCgfvZi
 2.	https://www.geeksforgeeks.org/collaborative-filtering-ml/
@@ -84,9 +84,9 @@ References:
 5.	https://www.geeksforgeeks.org/ml-content-based-recommender-system/
 6.	https://www.kaggle.com/code/omeroruccelik/content-based-recommendation-systems : very informative
 
+<br>
 
-
-<b>Research Paper Recommendation Model:</b>
+<b>Research Paper Recommendation Model:</b><br><br>
 
 The model gives a list of recommendations when provided with a particular Research Paper Title. These recommendations are based on different factors like:
 1.	Number of Citations
